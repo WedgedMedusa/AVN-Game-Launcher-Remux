@@ -1,0 +1,85 @@
+[versions]
+kotlin = "1.9.23"
+coil = "3.0.0-alpha08"
+jsoup = "1.16.1"
+koin = "3.5.3"
+koin-compose = "1.1.2"
+kotlinx-coroutines-core = "1.7.3"
+kotlinx-datetime = "0.6.0"
+kotlinx-cli = "0.3.6"
+ktor = "2.3.11"
+ktor-wasm = "3.2.0"
+multiplatform-settings-no-arg = "1.1.0"
+okio = "3.6.0"
+turbine = "0.12.1"
+jetbrains-compose = "1.6.10"
+ktlint-plugin = "12.0.3"
+kover = "0.7.5"
+detekt = "1.23.3"
+sqldelight = "2.0.1"
+log4j = "2.22.1"
+dependencygraphgenerator = "0.8.0"
+mockk = "1.13.9"
+buildkonfig = "0.15.1"
+mvvm = "0.16.1"
+chiptextfield = "0.7.0-alpha02"
+junit = "4.13.2"
+sonner = "0.3.8"
+
+[libraries]
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
+coil-network-ktor = { module = "io.coil-kt.coil3:coil-network-ktor", version.ref = "coil" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koin-compose" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+koin-ktor = { module = "io.insert-koin:koin-ktor", version.ref = "koin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines-core" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-core" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinx-cli = { module = "org.jetbrains.kotlinx:kotlinx-cli", version.ref = "kotlinx-cli" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-core-wasm = { module = "io.ktor:ktor-client-core-wasm-js", version.ref = "ktor-wasm" }
+ktor-client-contentnegotiation-wasm = { module = "io.ktor:ktor-client-content-negotiation-wasm-js", version.ref = "ktor-wasm" }
+ktor-serialization-kotlinx-json-wasm = { module = "io.ktor:ktor-serialization-kotlinx-json-wasm-js", version.ref = "ktor-wasm" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktor-client-contentnegotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-server-core = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktor" }
+ktor-server-netty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktor" }
+ktor-server-tests = { module = "io.ktor:ktor-server-tests-jvm", version.ref = "ktor" }
+ktor-server-contentnegotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "ktor" }
+ktor-server-default-headers = { module = "io.ktor:ktor-server-default-headers", version.ref = "ktor" }
+multiplatform-settings-no-arg = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "multiplatform-settings-no-arg" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+mvvm-flow-compose = { module = "dev.icerock.moko:mvvm-flow-compose", version.ref = "mvvm" }
+mvvm-compose = { module = "dev.icerock.moko:mvvm-compose", version.ref = "mvvm" }
+sqdelight-primitiveadapters = { module = "app.cash.sqldelight:primitive-adapters", version.ref = "sqldelight" }
+sqdelight-sqlitedriver = { module = "app.cash.sqldelight:sqlite-driver", version.ref = "sqldelight" }
+sqdelight-coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
+log4j-slf4j = { module = "org.apache.logging.log4j:log4j-slf4j2-impl", version.ref = "log4j" }
+log4j-core = { module = "org.apache.logging.log4j:log4j-core", version.ref = "log4j" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+dokar3-chiptextfield = { module = "io.github.dokar3:chiptextfield", version.ref = "chiptextfield" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+sonner = { module = "io.github.dokar3:sonner", version.ref = "sonner" }
+
+[bundles]
+
+[plugins]
+jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "jetbrains-compose" }
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint-plugin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+sqldelight = { id = "app.cash.sqldelight", version.ref = "sqldelight" }
+dependencygraphgenerator = { id = "com.vanniktech.dependency.graph.generator", version.ref = "dependencygraphgenerator" }
+buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfig" }

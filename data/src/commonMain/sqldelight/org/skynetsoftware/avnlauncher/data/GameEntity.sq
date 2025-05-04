@@ -1,0 +1,123 @@
+import kotlin.Boolean;
+import kotlin.Float;
+import kotlin.Int;
+import kotlin.String;
+import kotlin.collections.Set;
+
+CREATE TABLE GameEntity (
+    f95ZoneThreadId INTEGER AS Int PRIMARY KEY NOT NULL,
+    title TEXT NOT NULL,
+    imageUrl TEXT NOT NULL,
+    executablePaths TEXT AS Set<String> NOT NULL,
+    version TEXT NOT NULL,
+    playTime INTEGER NOT NULL,
+    rating INTEGER AS Int NOT NULL,
+    f95Rating REAL AS Float NOT NULL,
+    updateAvailable INTEGER AS Boolean NOT NULL,
+    added INTEGER NOT NULL,
+    lastPlayed INTEGER NOT NULL,
+    hidden INTEGER AS Boolean NOT NULL,
+    releaseDate INTEGER NOT NULL,
+    firstReleaseDate INTEGER NOT NULL,
+    playState TEXT NOT NULL DEFAULT "None",
+    availableVersion TEXT,
+    tags TEXT AS Set<String> NOT NULL,
+    checkForUpdates INTEGER AS Boolean NOT NULL DEFAULT 1,
+    customImageUrl TEXT,
+    firstPlayed INTEGER NOT NULL,
+    notes TEXT,
+    description TEXT NOT NULL DEFAULT "",
+    developer TEXT NOT NULL DEFAULT "",
+    prefixes TEXT AS Set<String> NOT NULL
+);
+
+gamesFull:
+SELECT 
+GameEntity.*, 
+PlaySessionEntity.startTime AS playSessionStartTime, PlaySessionEntity.endTime AS playSessionEndTime, PlaySessionEntity.version AS playSessionVersion,
+ListEntity.id AS listId, ListEntity.name AS listName, ListEntity.description AS listDescription,
+PlayStateEntity.id AS playStateId, PlayStateEntity.label AS playStateLabel, PlayStateEntity.description AS playStateDescription
+FROM GameEntity
+LEFT JOIN PlaySessionEntity ON GameEntity.f95ZoneThreadId = PlaySessionEntity.gameId
+LEFT JOIN GameEntityToListEntity ON GameEntity.f95ZoneThreadId = GameEntityToListEntity.gameId
+LEFT JOIN ListEntity ON GameEntityToListEntity.listId = ListEntity.id
+LEFT JOIN PlayStateEntity ON GameEntity.playState = PlayStateEntity.id;
+
+gameFull:
+SELECT 
+GameEntity.*,
+PlaySessionEntity.startTime AS playSessionStartTime, PlaySessionEntity.endTime AS playSessionEndTime, PlaySessionEntity.version AS playSessionVersion,
+ListEntity.id AS listId, ListEntity.name AS listName, ListEntity.description AS listDescription,
+PlayStateEntity.id AS playStateId, PlayStateEntity.label AS playStateLabel, PlayStateEntity.description AS playStateDescription
+FROM GameEntity
+LEFT JOIN PlaySessionEntity ON GameEntity.f95ZoneThreadId = PlaySessionEntity.gameId
+LEFT JOIN GameEntityToListEntity ON GameEntity.f95ZoneThreadId = GameEntityToListEntity.gameId
+LEFT JOIN ListEntity ON GameEntityToListEntity.listId = ListEntity.id
+LEFT JOIN PlayStateEntity ON GameEntity.playState = PlayStateEntity.id
+WHERE f95ZoneThreadId = ?;
+
+insertGame:
+INSERT INTO GameEntity VALUES ?;
+
+updateRating:
+UPDATE GameEntity SET rating = ? WHERE f95ZoneThreadId = ?;
+
+updateExecutablePaths:
+UPDATE GameEntity SET executablePaths = ? WHERE f95ZoneThreadId = ?;
+
+updateGame:
+UPDATE GameEntity
+SET title = ?,
+    description = ?,
+    developer = ?,
+    imageUrl = ?,
+    customImageUrl = ?,
+    executablePaths = ?,
+    version = ?,
+    rating = ?,
+    f95Rating = ?,
+    updateAvailable = ?,
+    added = ?,
+    hidden = ?,
+    releaseDate = ?,
+    firstReleaseDate = ?,
+    playState = ?,
+    availableVersion = ?,
+    tags = ?,
+    checkForUpdates = ?,
+    notes = ?,
+    prefixes = ?
+WHERE f95ZoneThreadId = ?;
+
+updateGameF95:
+UPDATE GameEntity
+SET executablePaths = ?,
+    checkForUpdates = ?,
+    playState = ?,
+    hidden = ?,
+    notes = ?
+WHERE f95ZoneThreadId = ?;
+
+updateGameNonF95:
+UPDATE GameEntity
+SET title = ?,
+    description = ?,
+    developer = ?,
+    imageUrl = ?,
+    version = ?,
+    releaseDate = ?,
+    firstReleaseDate = ?,
+    tags = ?,
+    executablePaths = ?,
+    checkForUpdates = ?,
+    playState = ?,
+    hidden = ?,
+    notes = ?
+WHERE f95ZoneThreadId = ?;
+
+updateVersion:
+UPDATE GameEntity
+SET updateAvailable = ?,
+    version = ?,
+    availableVersion = ?
+WHERE f95ZoneThreadId = ?;

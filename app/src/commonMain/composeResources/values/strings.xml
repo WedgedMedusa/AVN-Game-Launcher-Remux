@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="appName">AVN Game Launcher</string>
+
+    <!--Edit Game Screen-->
+    <string name="editGameDialogTitle">Edit '%1$s'</string>
+    <string name="editGameDialogTitleNoGameTitle">Edit Game</string>
+    <string name="editGameInputLabelTitle">Title</string>
+    <string name="editGameInputLabelImageUrl">Image URL</string>
+    <string name="editGameInputLabelExecutablePath">Executable Path</string>
+    <string name="editGameInputLabelNotes">Personal Notes</string>
+    <string name="editGameInputLabelVersion">Version</string>
+    <string name="editGameInputLabelReleaseDate">Release Date</string>
+    <string name="editGameInputLabelFirstReleaseDate">First Release Date</string>
+    <string name="editGameToastGameUpdated">Game Updated</string>
+    <string name="editGameButtonSave">Save and Close</string>
+    <string name="editGameDialogCheckForUpdates">Check for Updates</string>
+    <string name="editGameDialogArchived">Archived</string>
+    <string name="editDialogButtonDetectPaths">Detect Game Executables</string>
+    <string name="editGameInputLabelExecutablePathAndroid">Game Package Name</string>
+    <string name="editGameInputLabelTags">Tags</string>
+    <string name="editGameScreenSectionTitleGameDetails">Game Details</string>
+    <string name="editGameScreenSectionTitleExecutablePaths">Executable Paths</string>
+    <string name="editGameScreenSectionTitleOptions">Options</string>
+    <string name="editGameScreenItemTitlePlayState">Play State</string>
+    <string name="editGameScreenItemDescriptionPlayState">Playing, Waiting for Update, Completed, etc</string>
+    <string name="editGameScreenItemTitleLists">Custom Lists</string>
+    <string name="editGameScreenItemDescriptionLists">Add game to custom lists. Manage lists in settings</string>
+    <string name="editGameScreenItemTitleCheckForUpdates">Check for Updates</string>
+    <string name="editGameScreenItemDescriptionCheckForUpdates">Include game in update checks</string>
+    <string name="editGameScreenItemTitleArchived">Archived</string>
+    <string name="editGameScreenItemDescriptionArchived">Archived games don't show up under any filter except 'Archived Games'</string>
+    <string name="editGameScreenNoExecutablePaths1">No executable paths set\nClick</string>
+    <string name="editGameScreenNoExecutablePaths2">to add, or</string>
+    <string name="editGameScreenNoExecutablePaths3">to search automatically.</string>
+    <string name="editGameInputError">Invalid value</string>
+    <string name="createCustomGameTitle">Create Custom Game</string>
+    <string name="editGameToastGameCreated">Game Created</string>
+
+    <!--Import Game Screen-->
+    <string name="importGameDialogTitle">Import Game</string>
+    <string name="importGameDialogThreadIdHint">F95 Game Thread URL or ID</string>
+    <string name="importGameDialogPlayTimeHint">Play Time Hours (Optional)</string>
+    <string name="importGameDialogFirstPlayedHint">First Played (Optional)</string>
+    <string name="importGameDialogSuccessToast">Game Imported: '%1$s'</string>
+    <string name="importGameDialogErrorToast">Error Importing Game: '%1$s'</string>
+    <string name="importGameDialogButtonImport">Import</string>
+    <string name="importGameDialogGameExists">Game Exists</string>
+    <string name="importGameDialogInvalidUrl">URL is not valid</string>
+    <string name="importGameDialogFirstPlayedInvalid">First Played is not valid</string>
+    <string name="importGameDialogPlayTimeInvalid">Play Time is not valid</string>
+    <string name="importGameScreenButtonAddCustomGame">Add Custom Game</string>
+
+    <!--Settings Screen-->
+    <string name="settingsTitle">Settings</string>
+    <string name="settingsSectionTitleGeneral">General</string>
+    <string name="settingsItemTitleMinimizeToTray">Minimize To Tray</string>
+    <string name="settingsItemDescriptionMinimizeToTray">When Main Windows is closed, app will only be minimised to system tray.</string>
+    <string name="settingsItemTitleStartMinimized">Start Minimized</string>
+    <string name="settingsItemDescriptionStartMinimized">When app is launched it will start minimized to tray.</string>
+    <string name="settingsItemTitleLogLevel">Log Level</string>
+    <string name="settingsItemDescriptionLogLevel">Chose Log Level</string>
+    <string name="settingsItemTitleHttpServer">HTTP Server</string>
+    <string name="settingsItemDescriptionHttpServer">HTTP Server used for browser plugin</string>
+
+    <string name="settingsSectionTitleGames">Games</string>
+    <string name="settingsItemTitleGamesDir">Games Dir</string>
+    <string name="settingsItemDescriptionGamesDir">Directory with all your games. Used to auto search executables.</string>
+    <string name="settingsItemTitleUpdateChecks">Periodic Update Checks</string>
+    <string name="settingsItemDescriptionUpdateChecks">Check for new versions of games periodically.</string>
+    <string name="settingsItemTitleUpdateCheckInterval">Update Check Interval</string>
+    <string name="settingsItemDescriptionUpdateCheckInterval">How often to check for updates.</string>
+    <string name="settingsItemHintUpdateCheckInterval">Hours</string>
+    <string name="settingsItemTitleUpdateNotifications">Update Notifications</string>
+    <string name="settingsItemDescriptionUpdateNotifications">Show system notification when there are new game updates.</string>
+    <string name="settingsItemTitleDisableUpdateChecksForArchivedGames">Disable Update Checks for 'Archived' Games</string>
+    <string name="settingsItemDescriptionDisableUpdateChecksForArchivedGames">If enabled 'Archived' games will not be checked for updates.</string>
+    <string name="settingsItemTitleCustomLists">Custom Lists</string>
+    <string name="settingsItemDescriptionCustomLists">Custom Game Lists</string>
+    <string name="settingsItemTitleCustomStatuses">Custom Statuses</string>
+    <string name="settingsItemDescriptionCustomStatuses">Playing, Completed, etc</string>
+    <string name="settingsItemTitleForceUpdateGames">Update All Games</string>
+    <string name="settingsItemDescriptionForceUpdateGames">Force update all games from F95. Games will update automatically when there are new updated. Generally this should not be used.</string>
+
+    <string name="settingsSectionTitleUI">UI</string>
+    <string name="settingsItemTitleDateFormat">Date Format</string>
+    <string name="settingsItemDescriptionDateFormat">Format for displayed dates</string>
+    <string name="settingsItemHintDateFormat">MMM dd, yyyy</string>
+    <string name="settingsItemTitleTimeFormat">Date Format</string>
+    <string name="settingsItemDescriptionTimeFormat">Format for displayed times</string>
+    <string name="settingsItemHintTimeFormat">HH:mm</string>
+    <string name="settingsItemTitleGridColumns">Grid Columns</string>
+    <string name="settingsItemDescriptionGridColumns">How many columns to show in grid display mode.</string>
+    <string name="settingsItemTitleGridImageAspectRatio">Image Aspect Ratio</string>
+    <string name="settingsItemDescriptionGridImageAspectRatio">Image aspect ratio in grid display mode, width/height</string>
+    <string name="settingsItemHintGridImageAspectRatio">3.5</string>
+    <string name="settingsItemTitleGameCardValues">Game Item Values</string>
+    <string name="settingsItemDescriptionGridCardValues">Which values to show for each game.</string>
+
+    <string name="settingsSectionTitleAbout">About</string>
+    <string name="settingsItemTitleVersion">Version</string>
+    <string name="settingsItemTitleSource">Source</string>
+    <string name="settingsItemTitleF95Thread">F95 Thread</string>
+
+    <!--Custom Lists Screen-->
+    <string name="customListsScreenTitle">Custom Lists</string>
+    <string name="customListsAddNew">Add New List</string>
+    <string name="customListsDeleteConfirmButton">Confirm</string>
+    <string name="customListsDeleteCancelButton">Cancel</string>
+    <string name="customListsDeleteTitle">Delete '%1$s'?</string>
+    <string name="customListsDeleteText">Are you sure. This cannot be undone?</string>
+    <string name="customListsInputLabelLabel">Name</string>
+    <string name="customListsInputHintLabel">Enter name</string>
+    <string name="customListsInputLabelDescription">Description</string>
+    <string name="customListsInputHintDescription">Enter description (optional)</string>
+
+
+    <!--Custom Statuses Screen-->
+    <string name="customStatusesScreenTitle">Custom Statuses</string>
+    <string name="playStateErrorAlreadyExists">Play State with that name already exists</string>
+    <string name="customPlayStatesAddNew">Add New Play State</string>
+    <string name="customPlayStatesDeleteConfirmButton">Confirm</string>
+    <string name="customPlayStatesDeleteCancelButton">Cancel</string>
+    <string name="customPlayStatesDeleteTitle">Delete '%1$s'?</string>
+    <string name="customPlayStatesDeleteText">Are you sure. This cannot be undone?</string>
+    <string name="customPlayStatesInputLabelLabel">Label</string>
+    <string name="customPlayStatesInputHintLabel">Enter label</string>
+    <string name="customPlayStatesInputLabelDescription">Description</string>
+    <string name="customPlayStatesInputHintDescription">Enter description (optional)</string>
+
+    <!--Game Details Screen-->
+    <string name="gameDetailsAveragePlayTimeTotalLabel">Average Play Time:</string>
+    <string name="gameDetailsAveragePlayTimeTotal">%.1fh/day</string>
+    <string name="gameDetailsAveragePlayTime7Days">%.1fh/day</string>
+    <string name="gameDetailsAveragePlayTime7DaysLabel">Average Play Time Last 7 Days:</string>
+    <string name="gameDetailsAveragePlayTime30Days">%.1fh/day</string>
+    <string name="gameDetailsAveragePlayTime30DaysLabel">Average Play Time Last 30 Days:</string>
+    <string name="gameDetailsAveragePlayTime365Days">%.1fh/day</string>
+    <string name="gameDetailsAveragePlayTime365DaysLabel">Average Play Time Last 365 Days:</string>
+    <string name="gameDetailsVersionLabel">%s:</string>
+    <string name="gameDetailsVersionOther">Other</string>
+    <string name="gameDetailsTotalPlayTime">Total Play Time:</string>
+    <string name="gameDetailsPlayTimeToday">Play Time Today:</string>
+    <string name="gameDetailsPlayTimeLast7Days">Play Time Last 7 Days:</string>
+    <string name="gameDetailsPlayTimeLast30Days">Play Time Last 30 Days:</string>
+    <string name="gameDetailsPlayTimeLast365Days">Play Time Last 365 Days:</string>
+    <string name="gameDetailsPlayTimeByVersion">Play Time by Version</string>
+    <string name="gameDetailsTabEdit">Edit</string>
+    <string name="gameDetailsTabStatistics">Statistics</string>
+    <string name="gameDetailsTabOverview">Overview</string>
+    <string name="gameDetailsError">Error loading game</string>
+
+    <!--Main Screen-->
+    <string name="updateCheckUpdateAvailable">Updates Available: %1$d, Errors: %2$d</string>
+    <string name="filterLabel">Filter:</string>
+    <string name="sortLabel">Sort:</string>
+    <string name="infoLabelPlayTime">Play Time:</string>
+    <string name="infoLabelFirstPlayed">First Played:</string>
+    <string name="infoLabelLastPlayed">Last Played:</string>
+    <string name="infoLabelVersion">Version:</string>
+    <string name="infoLabelReleaseDate">Release:</string>
+    <string name="noValue">-</string>
+    <string name="nHours">%1$d hours</string>
+    <string name="nMinutes">%1$d minutes</string>
+    <string name="nSeconds">%1$d seconds</string>
+    <string name="totalPlayTime">Total play time: %s, %.1fh/day</string>
+    <string name="statePlaying">Playing '%1$s'</string>
+    <string name="stateCheckingForUpdates">Checking for Updates</string>
+    <string name="stateUpdatingGames">Updating Games</string>
+    <string name="stateIdle">Idle</string>
+    <string name="gameLauncherInvalidExecutableToast">Can't launch '%1$s', executablePath is invalid</string>
+    <string name="gameLauncherAnotherGameRunning">Can't start '%1$s', '%2$s' is already running</string>
+    <string name="toolbarActionSfw">SFW</string>
+    <string name="toolbarActionNsfw">NSFW</string>
+    <string name="searchLabel">Search</string>
+    <string name="gamePickerPickGame">Pick Game</string>
+    <string name="pickeExecutablePathDialogTitle">Pick Executable</string>
+    <string name="playStateLabelPlaying">Playing</string>
+    <string name="playStateLabelNotStarted">Not Started</string>
+    <string name="playStateLabelWaitingForUpdate">Waiting for Update</string>
+    <string name="playStateLabelCompleted">Completed</string>
+    <string name="trayShowHideWindow">Show/Hide Window</string>
+    <string name="trayCheckForUpdates">Check for Updates</string>
+    <string name="trayExit">Exit</string>
+    <string name="systemNotificationTitleUpdateAvailable">Updates Available</string>
+    <string name="systemNotificationDescriptionUpdateAvailable">There is updated available for %1$d games</string>
+    <string name="systemNotificationUpdatesChannelTitle">Game Updates</string>
+    <string name="systemNotificationUpdatesChannelDescription">Notifications for new Game Versions</string>
+    <string name="noGamesTextPart1">You don't have any games currently\nChange filter or click</string>
+    <string name="noGamesTextPart2">in the top bar to import game.</string>
+    <string name="gameRunningClickToStop">Game is running, click here to stop</string>
+    <string name="stopGameConfirmButtonStop">Stop</string>
+    <string name="stopGameConfirmButtonCancel">Cancel</string>
+    <string name="stopGameConfirmTitle">Stop '%1$s'</string>
+    <string name="stopGameConfirmText">This will forcefully stop the game.
+        \nAny unsaved progress might be lost, game files and/or saves could be corrupted.
+        \nAlways prefer to close the game from within the game.
+        \nYou have been warned!!!
+        \nAre you sure you want to force stop this game?</string>
+
+    <!--Hover Explanations-->
+    <string name="hoverExplanationGridDisplayMode">Grid View</string>
+    <string name="hoverExplanationListDisplayMode">List View</string>
+    <string name="hoverExplanationRating">Personal Rating, click to set. F95 rating is in the brackets.</string>
+    <string name="hoverExplanationExecutablePathMissing">Executable path is missing for this game.</string>
+    <string name="hoverExplanationUpdateAvailable">Update available for this game. Click to reset (set current version to available version).</string>
+    <string name="hoverExplanationF95Link">Open F95 Game thread in Browser.</string>
+    <string name="hoverExplanationFavorites">Add or Remove from Favorites.</string>
+    <string name="hoverExplanationEditGame">Edit Game</string>
+    <string name="hoverExplanationGameDetails">Game Details</string>
+    <string name="hoverExplanationAddExecutable">Manually add Game Executable</string>
+    <string name="hoverExplanationSearchExecutable">Automatically search for Game executables</string>
+    <string name="hoverExplanationSortDirection">Tip: Click same item again in the dropdown to reverse order. Order is indicated by the error in the brackets.</string>
+    <string name="hoverExplanationSfw">Replace all images with random SFW images, and replace all titles with random SFW phrase</string>
+    <string name="hoverExplanationImport">Import or Create Game</string>
+    <string name="hoverExplanationCheckForUpdates">Check for Updates</string>
+    <string name="hoverExplanationSettings">Settings</string>
+    <string name="hoverExplanationMaximizeFloating">Toggle between Maximized and Floating Window</string>
+    <string name="hoverExplanationExit">Exit Application if \"Minimize to Tray\" is disabled, close window otherwise.</string>
+
+    <!--Filter/Sort-->
+    <string name="filterGroupGeneral">General</string>
+    <string name="filterGroupPlayStates">Play States</string>
+    <string name="filterGroupLists">Lists</string>
+    <string name="filterAll">All</string>
+    <string name="filterGamesWithUpdate">Games With Update</string>
+    <string name="filterArchived">Archived Games</string>
+    <string name="filterUnPlayed">UnPlayed Games</string>
+</resources>

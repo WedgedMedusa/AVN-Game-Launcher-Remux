@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\.vs\\tasks.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\tasks.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-04T17:01:38.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsScreen.kt",
+              "DocumentMoniker": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt",
+              "RelativeDocumentMoniker": "app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt",
+              "ToolTip": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt",
+              "RelativeToolTip": "app\\src\\commonMain\\kotlin\\org\\skynetsoftware\\avnlauncher\\ui\\screen\\settings\\SettingsScreen.kt",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-04T17:01:12.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tasks.vs.json",
+              "DocumentMoniker": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\.vs\\tasks.vs.json",
+              "RelativeDocumentMoniker": ".vs\\tasks.vs.json",
+              "ToolTip": "C:\\Users\\Natha\\Downloads\\AVNGameLauncher\\.vs\\tasks.vs.json",
+              "RelativeToolTip": ".vs\\tasks.vs.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T02:22:27.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

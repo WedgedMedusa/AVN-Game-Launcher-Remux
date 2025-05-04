@@ -1,0 +1,91 @@
+<svg width="507px" height="431px"
+ viewBox="0.00 0.00 365.25 310.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.9999928000575995 0.9999928000575995) rotate(0.0) translate(4.0 306.0)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-306 361.25,-306 361.25,4 -4,4"/>
+<text text-anchor="middle" x="178.62" y="-264.75" font-family="Times,serif" font-size="35.00">avn&#45;game&#45;launcher</text>
+<!-- :app -->
+<g id="node1" class="node">
+<title>:app</title>
+<polygon fill="#ab47bc" stroke="black" points="223.07,-252 169.07,-252 169.07,-216 223.07,-216 223.07,-252"/>
+<text text-anchor="middle" x="196.07" y="-229.32" font-family="Times,serif" font-size="14.00">:app</text>
+</g>
+<!-- :domain -->
+<g id="node2" class="node">
+<title>:domain</title>
+<ellipse fill="#ab47bc" stroke="black" cx="118.07" cy="-18" rx="51.21" ry="18"/>
+<text text-anchor="middle" x="118.07" y="-13.32" font-family="Times,serif" font-size="14.00">:domain</text>
+</g>
+<!-- :app&#45;&gt;:domain -->
+<g id="edge1" class="edge">
+<title>:app&#45;&gt;:domain</title>
+<path fill="none" stroke="black" d="M168.61,-223.41C149.55,-215.14 125.58,-201.14 114.07,-180 91.35,-138.26 100.56,-80.98 109.32,-47.19"/>
+<polygon fill="black" stroke="black" points="112.64,-48.31 111.94,-37.74 105.89,-46.44 112.64,-48.31"/>
+</g>
+<!-- :logger -->
+<g id="node3" class="node">
+<title>:logger</title>
+<ellipse fill="#ab47bc" stroke="black" cx="231.07" cy="-90" rx="46.47" ry="18"/>
+<text text-anchor="middle" x="231.07" y="-85.33" font-family="Times,serif" font-size="14.00">:logger</text>
+</g>
+<!-- :app&#45;&gt;:logger -->
+<g id="edge2" class="edge">
+<title>:app&#45;&gt;:logger</title>
+<path fill="none" stroke="black" d="M200.36,-215.59C206.29,-191.5 217.08,-147.75 224.16,-119.03"/>
+<polygon fill="black" stroke="black" points="227.49,-120.13 226.49,-109.58 220.7,-118.45 227.49,-120.13"/>
+</g>
+<!-- :config -->
+<g id="node4" class="node">
+<title>:config</title>
+<ellipse fill="#ab47bc" stroke="black" cx="232.07" cy="-18" rx="44.37" ry="18"/>
+<text text-anchor="middle" x="232.07" y="-13.32" font-family="Times,serif" font-size="14.00">:config</text>
+</g>
+<!-- :app&#45;&gt;:config -->
+<g id="edge3" class="edge">
+<title>:app&#45;&gt;:config</title>
+<path fill="none" stroke="black" d="M214.22,-215.6C236.17,-193.15 271.95,-151.77 286.07,-108 290.98,-92.77 292.26,-86.75 286.07,-72 281.09,-60.13 272,-49.58 262.69,-41.08"/>
+<polygon fill="black" stroke="black" points="265.23,-38.65 255.34,-34.85 260.71,-43.99 265.23,-38.65"/>
+</g>
+<!-- :data -->
+<g id="node5" class="node">
+<title>:data</title>
+<ellipse fill="#ab47bc" stroke="black" cx="159.07" cy="-162" rx="36.48" ry="18"/>
+<text text-anchor="middle" x="159.07" y="-157.32" font-family="Times,serif" font-size="14.00">:data</text>
+</g>
+<!-- :app&#45;&gt;:data -->
+<g id="edge4" class="edge">
+<title>:app&#45;&gt;:data</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M186.92,-215.7C182.78,-207.87 177.8,-198.44 173.19,-189.73"/>
+<polygon fill="black" stroke="black" points="176.33,-188.17 168.56,-180.96 170.14,-191.44 176.33,-188.17"/>
+</g>
+<!-- :logger&#45;&gt;:domain -->
+<g id="edge6" class="edge">
+<title>:logger&#45;&gt;:domain</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M207.1,-74.15C191.03,-64.2 169.63,-50.94 151.84,-39.92"/>
+<polygon fill="black" stroke="black" points="154.02,-37.15 143.67,-34.86 150.33,-43.1 154.02,-37.15"/>
+</g>
+<!-- :logger&#45;&gt;:config -->
+<g id="edge5" class="edge">
+<title>:logger&#45;&gt;:config</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M231.31,-71.7C231.42,-64.41 231.54,-55.73 231.66,-47.54"/>
+<polygon fill="black" stroke="black" points="235.16,-47.67 231.8,-37.62 228.16,-47.57 235.16,-47.67"/>
+</g>
+<!-- :data&#45;&gt;:domain -->
+<g id="edge7" class="edge">
+<title>:data&#45;&gt;:domain</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M153.79,-143.84C150.63,-133.48 146.56,-120 143.07,-108 137.13,-87.62 130.65,-64.54 125.78,-47"/>
+<polygon fill="black" stroke="black" points="129.21,-46.25 123.17,-37.55 122.46,-48.12 129.21,-46.25"/>
+</g>
+<!-- :data&#45;&gt;:logger -->
+<g id="edge8" class="edge">
+<title>:data&#45;&gt;:logger</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M175.05,-145.46C184.26,-136.5 196.05,-125.04 206.43,-114.95"/>
+<polygon fill="black" stroke="black" points="208.57,-117.76 213.3,-108.28 203.69,-112.74 208.57,-117.76"/>
+</g>
+<!-- :data&#45;&gt;:config -->
+<g id="edge9" class="edge">
+<title>:data&#45;&gt;:config</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M159.28,-143.55C160.19,-124.79 163.68,-94.63 176.07,-72 182.42,-60.4 192.2,-49.87 201.83,-41.3"/>
+<polygon fill="black" stroke="black" points="203.94,-44.09 209.36,-34.98 199.45,-38.72 203.94,-44.09"/>
+</g>
+</g>
+</svg>
