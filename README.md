@@ -1,4 +1,9 @@
-# AVN Game Launcher
+# <span style="color:red;"><strong>IMPORTANT</strong></span>
+
+This is a reupload of the AVN Game Launcher made by "Unknown" since they have deleted all traces of themselves. I have also removed any mention of them from program files as I don't know what happened, but I would love for this project to remain in the open source software world.
+
+
+## AVN Game Launcher
 #### Adult Visual Novel Game Launcher for F95zone.to
 
 [![PR Pipeline](https://github.com/WedgedMedusa/AVNGameLauncher/actions/workflows/pr.yaml/badge.svg?branch=master)](https://github.com/WedgedMedusa/AVNGameLauncher/actions/workflows/pr.yaml) [![Release Pipeline](https://github.com/WedgedMedusa/AVNGameLauncher/actions/workflows/release.yaml/badge.svg)](https://github.com/WedgedMedusa/AVNGameLauncher/actions/workflows/release.yaml)  
